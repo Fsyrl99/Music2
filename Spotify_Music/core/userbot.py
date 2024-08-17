@@ -65,10 +65,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("THE_PUNJABI_BANDE")
-                await self.one.join_chat("THE_PUNJABI_BANDE")
-                await self.one.join_chat("THE_PUNJABI_BANDE")
-                await self.one.join_chat("THE_PUNJABI_BANDE")
+                await self.one.join_chat("Galerifsyrl")
+                await self.one.join_chat("filmlk21kw")
+                await self.one.join_chat("Nenen_degrees")
+                await self.one.join_chat("staroutside")
 
             except:
                 pass
@@ -95,10 +95,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("THE_PUNJABI_BANDE")
-                await self.two.join_chat("THE_PUNJABI_BANDE")
-                await self.two.join_chat("THE_PUNJABI_BANDE")
-                await self.two.join_chat("THE_PUNJABI_BANDE")
+                await self.two.join_chat("Galerifsyrl")
+                await self.two.join_chat("filmlk21kw")
+                await self.two.join_chat("Nenen_degrees")
+                await self.two.join_chat("staroutside")
             except:
                 pass
             assistants.append(2)
@@ -119,10 +119,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("THE_PUNJABI_BANDE")
-                await self.three.join_chat("THE_PUNJABI_BANDE")
-                await self.three.join_chat("THE_PUNJABI_BANDE")
-                await self.three.join_chat("THE_PUNJABI_BANDE")
+                await self.three.join_chat("Galerifsyrl")
+                await self.three.join_chat("filmlk21kw")
+                await self.three.join_chat("Nenen_degrees")
+                await self.three.join_chat("staroutside")
             except:
                 pass
             assistants.append(3)
@@ -144,10 +144,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("THE_PUNJABI_BANDE")
-                await self.four.join_chat("THE_PUNJABI_BANDE")
-                await self.four.join_chat("THE_PUNJABI_BANDE")
-                await self.four.join_chat("THE_PUNJABI_BANDE")
+                await self.four.join_chat("Galerifsyrl")
+                await self.four.join_chat("filmlk21kw")
+                await self.four.join_chat("Nenen_degrees")
+                await self.four.join_chat("staroutside")
             except:
                 pass
             assistants.append(4)
@@ -169,10 +169,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("THE_PUNJABI_BANDE")
-                await self.five.join_chat("THE_PUNJABI_BANDE")
-                await self.five.join_chat("THE_PUNJABI_BANDE")
-                await self.five.join_chat("testbotbad")
+                await self.five.join_chat("Galerifsyrl")
+                await self.five.join_chat("filmlk21kw")
+                await self.five.join_chat("Nenen_degrees")
+                await self.five.join_chat("staroutside")
             except:
                 pass
             assistants.append(5)
