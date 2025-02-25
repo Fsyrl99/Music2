@@ -46,6 +46,12 @@ def PlayWrapper(command):
                 ]
             )
             return await message.reply_text(_["general_3"], reply_markup=upl)
+
+        try:
+            await message.delete()
+        except:
+            pass
+            
         audio_telegram = (
             (message.reply_to_message.audio or message.reply_to_message.voice)
             if message.reply_to_message
