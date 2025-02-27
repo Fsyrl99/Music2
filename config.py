@@ -14,9 +14,6 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-# Enter your channel or group username without @.
-MUST_JOIN = getenv("MUST_JOIN")
-
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
@@ -25,11 +22,11 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002056907061"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002351111178"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002351111178"))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("OWNER_ID", "1506963557"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -47,7 +44,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Galerifsyrl")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Night_Shdeeeee")
+SUPPORT_GROUP = getenv("SUPPORT_CHAT", "https://t.me/Night_Shdeeeee")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
