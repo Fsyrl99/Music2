@@ -22,7 +22,7 @@ from Spotify_Music.utils.database import (
 )
 from Spotify_Music.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE
-from config import SUPPORT_GROUP as SUPPORT_CHAT
+from config import SUPPORT_CHAT
 from config import adminlist
 from strings import get_string
 
