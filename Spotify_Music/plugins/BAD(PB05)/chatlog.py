@@ -11,8 +11,8 @@ from pathlib import Path
 from pyrogram.enums import ParseMode
 
 photo = [
-     "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-     "https://telegra.ph/file/a20ce93f9413d7b6da73f.jpg",
+     "https://files.catbox.moe/a75yiu.jpg",
+     "https://files.catbox.moe/hrynpw.jpg",
 ]
 
 @app.on_message(filters.new_chat_members, group=2)
