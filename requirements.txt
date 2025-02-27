@@ -38,8 +38,8 @@ tgcrypto
 telegraph==2.2.0
 unidecode
 yt-dlp
-#git+https://github.com/joetats/youtube_search@master
-#git+https://github.com/alexmercerind/youtube-search-python@main
+git+https://github.com/joetats/youtube_search@master
+git+https://github.com/alexmercerind/youtube-search-python@main
 gtts
 youtube_search
 youtube-search-python
