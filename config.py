@@ -46,8 +46,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/filmlk21kw")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/BestieVirtual")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Galerifsyrl")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Night_Shdeeeee")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -64,15 +64,15 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "907c6a054c214005aeae1fd
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "550000000"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "255500000"))
 
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
-SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "2000"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "18886638639737368380"))
+SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "35373862837388362000"))
 
 # Telegram audio and video file size limit (in bytes)
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 1048362836383628993657600))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073763292936282638741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
@@ -93,15 +93,15 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/fd6ba5d3cbad68f0ec6eb.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/a75yiu.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/b942b7da4e3aa23a44f2b.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/hrynpw.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/b869ffe0f2b6d233e21c1.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/b466f01b997ab8e3a02c5.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/0fbd2c68884973f262e12.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/0fbd2c68884973f262e12.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/hrynpw.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/a75yiu.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/a75yiu.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/a75yiu.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/a580337fd47ffe84c85b2.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/a580337fd47ffe84c85b2.jpg"
 YOUTUBE_IMG_URL = "https://telegra.ph/file/693f06799e2138a4694d0.jpg"
