@@ -66,9 +66,8 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("Galerifsyrl")
-                await self.one.join_chat("filmlk21kw")
-                await self.one.join_chat("Nenen_degrees")
-                await self.one.join_chat("staroutside")
+                await self.one.join_chat("FerdiSupport")
+                await self.one.join_chat("Night_Shdeeeee")
 
             except:
                 pass
@@ -96,9 +95,8 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("Galerifsyrl")
-                await self.two.join_chat("filmlk21kw")
-                await self.two.join_chat("Nenen_degrees")
-                await self.two.join_chat("staroutside")
+                await self.two.join_chat("FerdiSupport")
+                await self.two.join_chat("Night_Shdeeeee")
             except:
                 pass
             assistants.append(2)
